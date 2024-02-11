@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(0deg, black, rgba(0, 0, 0, 0.715)), url("Netflix.jpeg");
+    backface-visibility: visible;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top:  20px;
+    margin-bottom: 10em;
+}
+
+.container nav h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    color: #E50915;
+}
+
+.container nav a {
+    text-decoration: none;
+    background-color: #E50915;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.container .hero {
+    width: 75%;
+    background-color: transparent;
+    margin: auto;
+}
+.container .hero .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .hero h1 {
+    font-size: 3.5em;
+    color: white;
+}
+
+.container .hero h2 {
+    color: beige;
+    padding-bottom: 10px;
+}
+
+.container .form-group {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.container .form-group form {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.container .form-group form .input-div {
+    width: 70%;
+    margin: auto;
+}
+
+.container .form-group form input {
+    width: 98%;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid azure;
+    margin-bottom: 10px;
+}
+.container .form-group form .btn-form {
+    width: 24%;
+}
+
+.container .form-group form .btn-form button {
+    background-color: #E50915;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #E50915;
+}
+
+.container hr {
+    border: 5px solid #232323;
+}
+
+.container .enjoy-container {
+    background-color: black;
+    width: 100%;
+}
+
+.container .enjoy-container .enjoy {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+
+.container .enjoy-container .enjoy .left-box {
+    width: 50%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.container .enjoy-container .enjoy .left-box h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+.container .enjoy-container .enjoy .left-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.container .enjoy-container .enjoy .left-box img {
+    width: 80%;
+}
+
+.container .enjoy-container .enjoy .right-box {
+    width: 50%;
+    /* padding-top: 15%; */
+    padding-bottom: 10%;
+}
+
+.container .enjoy-container .enjoy .right-box h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 50%;
+
+}
+
+.container .enjoy-container .enjoy .right-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.container .frequent {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.container .fold {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.container .fold .collapsible {
+    background-color: #2D2D2D;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.container .fold button {
+    margin-top: 10px;
+    font: 2em sans-serif;
+}
+
+.container .fold .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: white;
+    background-color: #2D2D2D;
+    transition: 1s ease;
+  }
+
+.container .fold  .content p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font: 1.5em sans-serif;
+  }
+
+.container .fold .active, .container .fold .collapsible:hover {
+    background-color: #414141;
+}
+
+.container .fold .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.container .fold active:after {
+    content: "\2212";
+}
+
+.container .watch-b .watch {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.container .watch-b .form2 {
+    width: 50%;
+    margin: auto;
+}
+
+.container .watch-b .form2 form input {
+    width: 60%;
+}
+
+.container .watch-b .form2 form button {
+    background-color: #E50915;
+    color: white;
+    padding: 0 10px;
+    font-size: 20px;
+    border: 2px solid #E50915;
+}
+/* .container .watch-b .form2 form button span {
+    padding: 0 5px;
+} */
+
+.container .watch-b {
+    margin-bottom: -150px;
+}
+
+.container .footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.container .footer .foot-div {
+    padding: 50px;
+}
+
+.container .footer .foot-div p{
+    margin-bottom: 20px;
+}
+
+.container .footer .foot-div p a {
+    color: gray;
+}
+
+.container .footer .foot-div .adjust-par1 {
+    margin-top: 20px;
+}
+
+.container .footer .foot-div .adjust-par {
+    margin-top: 40px;
+}
+
+.container .footer .foot-div select {
+    background-color: black;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Media querry begins */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .container nav {
+        margin-bottom: 5em;
+    }
+    .container .form-group {
+        width: 85%;
+        margin: auto;
+    }
+
+    .container .form-group form {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .form-group form .input-div {
+        width: 95%;
+        /* margin-right: 5%; */
+        padding-right: 30px;
+    }
+    .container .form-group form .btn-form {
+        width: 100%;
+    }
+    
+    .container .form-group form .btn-form button {
+        background-color: #E50915;
+        padding: 10px 16px;
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        border: 2px solid #E50915;
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+
+    .container .enjoy-container .enjoy {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80%;
+    }
+    
+    
+    .container .enjoy-container .enjoy .left-box {
+        width: 100%;
+        padding-top: 15%;
+        padding-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .container .enjoy-container .enjoy .left-box h1 {
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .container .enjoy-container .enjoy .left-box p {
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .container .enjoy-container .enjoy .left-box {
+        text-align: center;
+    }
+    
+    .container .enjoy-container .enjoy .left-box img {
+        width: 100%;
+    }
+    .container hr {
+        border: 0 solid black;
+    }
+    .container .enjoy-container .enjoy .right-box {
+        width: 100%;
+        padding-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .enjoy-container .enjoy .right-box img{
+        width: 100%;
+    }
+    .container .enjoy-container .enjoy .right-box h1 {
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    .container .enjoy-container .enjoy .right-box p {
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .container .watch-b .form2 input {
+        width: 100%;
+  }
+
+    .container .footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    .container .footer .foot-div {
+        width: 50%;
+    }
+    .container .footer .right {
+        width: 30%;
+    }
+}
